@@ -288,3 +288,11 @@ true === false
 
 // Null and undefined
 // Undefined tells us that there isn't any data in there and null says that this has been deliberately left empty
+
+// In groups use comparison operators and variables to get a boolean value as a result to the problem below
+// You want to be able to work out whether someone is allowed into a PG-13 movie or not.
+// The rules are, if someone is 13 or over, they’re allowed in. If they’re not over 13, but they are accompanied by an adult, they’re also allowed in. Otherwise, they can’t see the movie.
+// Start here:
+// var age = 12;
+// var accompanied = true;
+// Try changing the values of the variables to see if you can get different results

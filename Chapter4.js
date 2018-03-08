@@ -2,8 +2,8 @@
 
 // What are objects
 // Similar to arrays, objects are another method of storing large amounts of data in JS
-// In arrays we typically are just storing single pieces of data in a row
-// With objects we can be much more specific with what the data is
+// In arrays, we typically are just storing single pieces of data in a row
+// With objects, we can be much more specific with what the data is
 
 // Object syntax
 // Objects are denoted by being wrapped in curly braces and are made up of what are called key/value pairs
@@ -16,7 +16,7 @@
 
 // Note that instead of an equals sign, here we are using a colon to separate the data (value) and its name (key)
 // Keys are always, though they can be written with or without the double quotes when used in objects
-// Values however can be any of the data types we've discussed before
+// Values, however, can be any of the data types we've discussed before
 // Values can even be more objects or arrays
 
 // {
@@ -26,8 +26,8 @@
 // }
 
 // This is what a basic object looks like
-// We can put as many key value pairs inside of this object as we want to
-// Note that if we do have multiple key value pairs, just as with arrays, we separate them with a comma
+// We can put as many key-value pairs inside of this object as we want to
+// Note that if we do have multiple key-value pairs, just as with arrays, we separate them with a comma
 
 // Let's save that to a variable so that we can access that information later
 
@@ -42,7 +42,7 @@ var me = {
 // What were the two types of notation that we used earlier?
 
 // Just like with strings, we can use both dot and bracket notation to access the data within an object
-// I personally prefer to use dot notation whenver possible
+// I personally prefer to use dot notation whenever possible
 // Let's take a look at what that looks like
 
 me["name"];
@@ -65,11 +65,11 @@ name;
 var cat = {};
 
 // We've saved it to a variable but there's no data inside of it
-// If we wanted to add data into the object we'd use the same notation we did before
+// If we wanted to add data to the object we'd use the same notation we did before
 
 cat.name = "Hobbes";
 
-// If the object does not have a key of name it will create that key and set it's value
+// If the object does not have a key of "name" it will create that key and set its value
 // We can also change it's value if it does exist
 
 cat.name = "Zoey";
@@ -96,7 +96,7 @@ var cats = [
   { name: "Finn", color: "Tuxedo" }
 ];
 
-// Just as before with arrays we can access pieces of the array with bracket notation
+// Just as before with arrays, we can access pieces of the array with bracket notation
 
 // What would we get back here
 
@@ -109,9 +109,9 @@ cats;
 
 cats[0].name || cats[0]["name"];
 
-// Note that dot notation can only be used with objects not arrays
+// Note that dot notation can only be used with objects, not arrays
 
-// Lets take the complexity up a notch
+// Let's take the complexity up a notch
 
 var Hobbes = { name: "Hobbes", color: "Copper", luckyNumbers: [17, 4, 98] };
 var Zoey = { name: "Zoey", color: "Silver", luckyNumbers: [34, 19, 10004] };
@@ -130,10 +130,10 @@ myCats[1].color;
 
 myCats[2].luckyNumbers[1];
 
-// So now we see how these can all be strung together to access data that's nested deep within and array or object
+// So now we see how these can all be strung together to access data that is nested deep within an array or object
 
 // Uses for objects
-// Here's what a real world use case for objects would look like
+// Here's what a real-world use case for objects would look like
 
 var movies = {
   "Finding Nemo": {
@@ -179,7 +179,7 @@ movies["Cars"] = cars;
 
 // In groups I want everybody to create an array of objects with these attributes (feel free to make up all of the information)
 
-// * Saved to a variabled named books
+// * Saved to a variable named books
 // * Is an array with two objects inside
 // * Each object has the following info
 // - a string for the name of the book
