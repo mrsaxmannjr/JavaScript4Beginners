@@ -1,5 +1,5 @@
 // Functions
-// Functions are we write code that we can use over and over again without having to copy and paste the code everytime.
+// Functions are we write code that we can use over and over again without having to copy and paste the code every time.
 // They also allow us to group functionality together and give it a name that makes it clearer what this group of code does
 
 // Function syntax
@@ -18,9 +18,9 @@ function myFunction() {}
 // After that are the opening and closing parentheses, we'll get into more what they do later but every function has to have these
 
 // Then we have the curly braces
-// The curly braces denote that everything inside of them is the actual functionality of the function, what code we want the fucntion to run
+// The curly braces denote that everything inside of them is the actual functionality of the function, what code we want the function to run
 
-// Lets write a function that simply outputs "Hello world!" to the console
+// Let's write a function that simply outputs "Hello world!" to the console
 
 function sayHello() {
   console.log("Hello world!");
@@ -29,11 +29,11 @@ function sayHello() {
 // Now if we stop here and run this nothing is going to happen
 // Just like with variables we have to actually call them for the code inside to be run
 
-// This is the synax for a funtion call
+// This is the syntax for a function call
 
 sayHello();
 
-// Its simply the name of the function that we created earlier followed by opening and closing paretheses
+// Its simply the name of the function that we created earlier followed by opening and closing parentheses
 
 // Now if we run this we get "Hello world!" in the console
 
@@ -42,13 +42,13 @@ sayHello();
 // Let's talk about what those parentheses are for
 // Functions have things called parameters and arguments, which is what goes inside the parentheses
 
-// Parameters are like placeholder for stuff inside functions and are only used when you are creating a function
+// Parameters are like a placeholder for stuff inside functions and are only used when you are creating a function
 
 function greeting(name) {
   console.log("Hello " + name);
 }
 
-// Now that we have our placeholder or parameter we can call our function and pass it an argument that take the place of name
+// Now that we have our placeholder or parameter we can call our function and pass it an argument that takes the place of name
 
 greeting("BJ");
 
@@ -65,8 +65,8 @@ var newName = "James";
 
 greeting(newName);
 
-// Arguments and parameters can be what ever we want
-// Lets create a function in which we pass in an argument that says how many times we want to print something
+// Arguments and parameters can be whatever we want
+// Let's create a function in which we pass in an argument that says how many times we want to print something
 
 function drawCats(howManyTimes) {
   for (let i = 0; i < howManyTimes; i++) {
@@ -116,7 +116,7 @@ printAnything(10, "Yo");
 
 // Returning values
 
-// So far we've only been logging values to the console which is great for displaying data but it doesnt make that data available to us elswehere in our program
+// So far we've only been logging values to the console which is great for displaying data but it doesn't make that data available to us elsewhere in our program
 
 // That's where return comes in
 
@@ -155,7 +155,7 @@ function returnHello(name) {
 
 newTimes2(5) + newTimes2(2);
 
-// Since functions can equate to values we can also pass functions in as agruments to functions
+// Since functions can equate to values we can also pass functions in as arguments to functions
 
 // For instance
 
@@ -205,7 +205,7 @@ fifthLetter("James");
 
 fifthLetter("BJ");
 
-// When I put in a name shorther than five letters it only returns the first string becuase it never reaches the second one
+// When I put in a name shorter than five letters it only returns the first string because it never reaches the second one
 
 // Project time
 // As a group follow these instructions to create a random insult generator
